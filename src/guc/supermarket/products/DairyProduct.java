@@ -7,11 +7,6 @@ public class DairyProduct extends GroceryProduct {
 		super(name, price, discount);
 		this.fat=fat;
 	}
-	public String toString()
-	{
-		return super.toString()+"\nFat Level: "+fat;
-		
-	}
 	public Fat getFat() {
 		return fat;
 	}
